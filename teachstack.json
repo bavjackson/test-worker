@@ -5,7 +5,7 @@
       "testrunner": "pytest"
     }
   ],
-  
+
   "modules": [
     {
       "name": "Hello World",
@@ -45,6 +45,24 @@
             {
               "language": "python",
               "script": "main.py"
+            }
+          ]
+        }
+      ]
+    }, {
+      "name": "Module 2",
+      "dir": "Module2",
+      "exercises": [
+        {
+          "name": "Exercise in Module 2",
+          "dir": "ex1",
+          "run": "python main.py",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_ex_2",
+              "name": "Ex 2",
+              "description": "Test for my second module"
             }
           ]
         }
